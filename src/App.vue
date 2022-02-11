@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <h1>{{ msg }}</h1>
-        <img src="./img/logo.png">
+        <img class="logo" src="./img/logo.jpg">
         <input type="text" v-model="msg">
     </div>
 </template>
@@ -36,6 +36,9 @@
 
         h1 {
             color: #CC3333;
+        }
+        .logo {
+            width: 400px;
         }
     }
 </style>
